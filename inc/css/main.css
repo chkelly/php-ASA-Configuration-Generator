@@ -1,0 +1,257 @@
+/* CSS Written by Chris Kelly */
+
+/* The items below control how the DIVS are displayed */
+/* The page container wraps the entire page and centers it */
+#page-container {
+    margin: auto;
+    width: 760px;
+}
+/* The Padding wraps around a DIV to seperate it out */
+.padding {
+    padding: 5px;
+}
+/* This controls the header DIV, which stretches across the very top */
+#header {
+    width: 760px;
+    height: 125px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background: #990000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#990000), to(#CC0000));
+    background: -moz-linear-gradient(top,  #990000,  #CC0000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#990000', endColorstr='#CC0000');
+}
+
+/* This is the content DIV, which is to the right of the navigation DIV */
+#content {
+    width: 760px;
+    height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+}
+
+/* This is the footer DIV, which is directly below the Navigation and content divs */
+#footer {
+    height: 50px;
+    width: 760px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background: #990000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#990000), to(#CC0000));
+    background: -moz-linear-gradient(top,  #990000,  #CC0000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#990000', endColorstr='#CC0000');
+}
+
+#headerContent {
+    font-size: 12px;
+    color: #c9c9c9;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    text-align:center;
+}
+
+#bodyContent {
+    font-size: 12px;
+    color: #000000;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footerContent {
+    font-size: 12px;
+    color: #c9c9c9;
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    text-align: center;
+    
+}
+
+body {
+    background #999999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#CCCCCC));
+    background: -moz-linear-gradient(top,  #999999,  #CCCCCC);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#CCCCCC');
+}
+
+img {
+    border:none;
+}
+
+label {
+  font-size: 10px;
+}
+
+.navigation {
+}
+
+.bodyTxt {
+    float: left;
+    height: 525px;
+    width: 600px;
+    overflow: auto;
+}
+
+.mainBodyTxt{
+    height: 525px;
+    overflow: auto;
+}
+.helpTxt {
+    margin-left: 600px;
+    width: 140px;
+    height: 520px;
+    padding: 5px;
+    
+}
+.sidebar {
+    margin-left: 500px;
+    height: 525px;
+    width: 260px;
+}
+
+.formHeader {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #000000;
+    width: 500px;
+    font-weight: bold;
+}
+
+.formFields {
+    clear: both;
+}
+
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+    color:#CC0000;
+}
+input {
+    border: 1px solid #ddd;
+}
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
+
+.configurationTxt {
+    font-family: Terminal, monospace;
+    height: 490px;
+    clear: both;
+    overflow: auto;
+}
+
+.red {
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.red:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.navTxt {
+   float: left;
+   color: #ed1c24;
+   font-weight: bold;
+   font-size: 35px;
+}
+.navMenu {
+    text-align: right;
+    padding: 5px;
+}
+
+.savedTrans {
+    margin-top: 260px;
+    float: left;
+    width: 300px;
+    margin-right: 5px;
+    
+}
+
+.savedNat{
+    margin-top: 260px;
+    float: left;
+    width: 300px;
+    margin-right: 5px;
+    
+}
+
+ul {
+   list-style-image: url(view.png);
+   vertical-align: middle;
+   margin: 1px;
+}
+
+addsrv {
+}
+
+.error{
+    color:red;
+    font-weight: bold;
+}
+
+A:link {text-decoration: none; color: blue;}
+A:visited {text-decoration: none; color: blue;}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: red;}
